@@ -2,4 +2,5 @@
 
 ## Lista de sesiones
 
-- Aggregate
+01 - Aggregate (Agregado)
+02 - Domain Event (Evento de Dominio)
