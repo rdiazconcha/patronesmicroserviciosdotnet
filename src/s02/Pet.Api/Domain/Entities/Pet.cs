@@ -6,6 +6,8 @@ namespace Pet.Api.Domain.Entities;
 public class Pet
 {
     private List<IDomainEvent> events = new List<IDomainEvent>();
+
+    public ICollection<IDomainEvent> DomainEvents => events;
     public Guid Id { get; init; }
 
     public PetName Name { get; private set; }
@@ -14,7 +16,11 @@ public class Pet
 
     private Pet()
     {
+    }
 
+    public Pet(PetName petName)
+    {
+        SetName(petName);
     }
 
     public void SetName(PetName name)
@@ -23,5 +29,4 @@ public class Pet
         var newEvent = new PetNameChanged(name.Value);
         events.Add(newEvent);
     }
-
 }
