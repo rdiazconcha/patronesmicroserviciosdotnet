@@ -14,8 +14,16 @@ public class Pet
 
     public PetDateOfBirth DateOfBirth { get; private set; }
 
-    private Pet()
+    private Pet(string name)
     {
+        var i = 10;
+        Name = new PetName("Hi");
+        /*
+         Hi this is my keyboard!
+         */
+        /*
+         Hi this is another comment.
+         */
     }
 
     public Pet(PetName petName)
