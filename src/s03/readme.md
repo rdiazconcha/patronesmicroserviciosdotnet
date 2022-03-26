@@ -1,6 +1,9 @@
 # Patrones de Diseño para Microservicios .NET
 ## Sesión 03: Database-per-service
 
+### Video
+https://bit.ly/patrones-diseño-microservicios-databaseperservice
+
 ### Patrón de diseño: Database-per-service
 https://aka.ms/pdm-databaseperservice 
 
