@@ -7,3 +7,4 @@
 | 01     | Aggregate (Agregado) | 11/mar/2022 | [S01](src/s01/readme.md) |
 | 02     | Domain Event (Evento de Dominio) | 18/mar/2022 | [S02](src/s02/readme.md) |
 | 03     | Database-per-service (Base de datos por servicio) | 25/mar/2022 | [S03](src/s03/readme.md) |
+| 04     | API Composition | 01/abr/2022 |
